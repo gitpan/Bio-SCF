@@ -8,7 +8,7 @@ use Bio::SCF::Arrays;
 use Carp 'croak';
 
 @ISA = qw(DynaLoader);
-$VERSION = '1.01';
+$VERSION = '1.03';
 use constant KEYS => {
 		     index	=> 0,
 		     A		=> 1,
@@ -485,6 +485,12 @@ Dmitri Priimak, priimak@cshl.org (1999)
 
 with some cleanups by
 Lincoln Stein, lstein@cshl.edu (2006)
+
+This package and its accompanying libraries is free software; you can
+redistribute it and/or modify it under the terms of the GPL (either
+version 1, or at your option, any later version) or the Artistic
+License 2.0.  Refer to LICENSE for the full license text. In addition,
+please see DISCLAIMER for disclaimers of warranty.
 
 =head1 SEE ALSO
 

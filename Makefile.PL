@@ -4,7 +4,8 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'Bio::SCF',
     'VERSION_FROM' => 'SCF.pm', # finds $VERSION
-    'LIBS'	=> ['-lread -lz'],   # e.g., '-lm' 
+    'LICENSE'   => 'perl',
+    'LIBS'	=> ['-lstaden-read -lz'],   # e.g., '-lm' 
     'DEFINE'	=> '-DLITTLE_ENDIAN',     # e.g., '-DHAVE_SOMETHING' 
     'INC'	=> '',     # e.g., '-I/usr/include/other'
 );
